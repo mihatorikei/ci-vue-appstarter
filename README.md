@@ -10,7 +10,7 @@
   <a href="https://packagist.org/packages/mihatori/ci-vue-appstarter">
     <img src="https://badges.hiptest.com:/packagist/dt/mihatori/ci-vue-appstarter?color=%23c700ff&logo=packagist&logoColor=%23c700ff">
   </a>
-  <img src="https://custom-icon-badges.herokuapp.com/packagist/l/mihatori/codeignitervite?logo=law">
+  <img src="https://custom-icon-badges.herokuapp.com/packagist/l/mihatori/ci-vue-appstarter?logo=law">
 <p>
 
 ## Features:
