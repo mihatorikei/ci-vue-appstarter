@@ -1,0 +1,24 @@
+{
+    "name": "codeigniter-vite-vue",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "axios": "^0.27.2",
+        "sass": "^1.53.0",
+        "vue": "^3.2.37",
+        "vue-router": "^4.1.2"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^3.0.0",
+        "vite": "^3.0.0",
+        "vite-plugin-pages": "^0.25.0",
+        "vite-plugin-pwa": "^0.12.3",
+        "vite-plugin-windicss": "^1.8.7",
+        "windicss": "^3.5.6"
+    }
+}

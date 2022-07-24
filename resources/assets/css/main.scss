@@ -1,0 +1,100 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    @apply text-white bg-gradient-to-tr bg-no-repeat from-indigo-900 to-dark-400;
+}
+main{
+    min-height: 100vh;
+}
+.router-link-active{
+    @apply text-primary-500 font-semibold;
+}
+
+// Scale animation
+.scale-enter-active {
+	-webkit-animation: scale 0.3s linear;
+	animation: scale 0.3s linear;
+}
+@keyframes scale {
+	0% {
+		transform: scale(0.8) rotate(10deg);
+		opacity: 0;
+	}
+	50% {
+		transform: scale(1.15) rotate(-10deg);
+	}
+}
+@-webkit-keyframes scale {
+	0% {
+		transform: scale(0.8) rotate(10deg);
+		opacity: 0;
+	}
+	50% {
+		transform: scale(1.15) rotate(-10deg);
+	}
+}
+
+// Slide from right
+.slide-right-enter-active,
+.slide-right-leave-active {
+	transform: translateX(10vh);
+	opacity: 0;
+}
+
+// Slide from Left
+.slide-left-enter-active,
+.slide-left-leave-active {
+	transform: translateX(-10vh);
+	opacity: 0;
+}
+
+// Slide from Top
+.slide-top-enter-active,
+.slide-top-leave-active {
+	transform: translateY(-10vh);
+	opacity: 0;
+}
+
+// Slid from bottom
+.slide-bottom-enter-active,
+.slide-bottom-leave-active {
+	transform: translateY(10vh);
+	opacity: 0;
+}
+
+// Spining
+.spin {
+    animation: spin linear 1s infinite;
+    -webkit-animation: spin linear 1s infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    from {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+// Default animation (fade).
+.v-enter-active, .v-leave-active{
+    transition: all linear 0.3s;
+}
+.v-enter-from, .v-leave-to{
+    opacity: 0;
+}

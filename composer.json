@@ -1,0 +1,38 @@
+{
+    "name": "mihatori/ci-vue-appstarter",
+    "type": "project",
+    "description": "CodeIgniter4 + vujs starter app",
+    "homepage": "https://github.com/firtadokei/ci-svelte-appstarter",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "codeigniter4/framework": "^4.0",
+        "mihatori/codeignitervite": "^1.0"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.9",
+        "mikey179/vfsstream": "^1.6",
+        "phpunit/phpunit": "^9.1"
+    },
+    "suggest": {
+        "ext-fileinfo": "Improves mime type detection for files"
+    },
+    "autoload": {
+        "exclude-from-classmap": [
+            "**/Database/Migrations/**"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Support\\": "tests/_support"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "support": {
+        "source": "https://github.com/firtadokei/ci-vue-appstarter",
+        "forum": "http://forum.codeigniter.com/",
+        "slack": "https://codeigniterchat.slack.com"
+    }
+}
