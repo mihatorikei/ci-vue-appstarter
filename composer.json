@@ -31,8 +31,6 @@
         "test": "phpunit"
     },
     "support": {
-        "source": "https://github.com/firtadokei/ci-vue-appstarter",
-        "forum": "http://forum.codeigniter.com/",
-        "slack": "https://codeigniterchat.slack.com"
+        "source": "https://github.com/firtadokei/ci-vue-appstarter"
     }
 }
