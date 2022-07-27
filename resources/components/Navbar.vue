@@ -11,7 +11,7 @@
                     </li>
                 </ul>
                 <ul class="flex gap-3 w-max ml-auto">
-                    <li><a href="https://github.com/firtadokei/codeigniter-vitejs-appstarter"><i class="bi bi-github text-2xl"></i></a></li>
+                    <li><a href="https://github.com/firtadokei/ci-vue-appstarter"><i class="bi bi-github text-2xl"></i></a></li>
                 </ul>
             </div>
         </div>
